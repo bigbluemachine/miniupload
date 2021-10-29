@@ -1,0 +1,19 @@
+<Files _db.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files _fs.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files _ss.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files _up.php>
+  order allow,deny
+  deny from all
+</Files>

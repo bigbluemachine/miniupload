@@ -1,0 +1,14 @@
+.copyright::before { content: "\00A9  2018-2021"; }
+
+* { font-family:monospace; }
+.box { border: #cccccc 1px solid; padding: 5px 15px 5px 15px; }
+.err { color: #ff0000; white-space: pre; }
+.grey6 { color: #666666; }
+.grey9 { color: #999999; }
+.greyc { color: #cccccc; }
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #cccccc;
+}
