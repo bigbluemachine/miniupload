@@ -7,6 +7,7 @@ Very minimalist file uploader service I made in PHP many years ago.
 * PHP (works with verseion 7, but also worked with 5 IIRC)
 * MySQL
 * Apache (any web server really, but need to replace .htaccess with something suitable)
+* SMTP (if hosting from your own server)
 
 ## Database Setup
 
@@ -44,4 +45,6 @@ CREATE TABLE Files (
 
 ## Additional Setup
 
-This application sends confirmation e-mails for newly registered accounts. The e-mail address and contents are defined in the function `up_mailPassword` in the file `_up.php`. Most hosting providers offer you e-mail addresses from which you can send mail; just create an e-mail address and change the contents of that function. If hosting it from your own server, you will have to set up SMTP (which I will not go into here).
+This application sends confirmation e-mails for newly registered accounts. The e-mail address and contents are defined in the function `up_mailPassword` in the file `_up.php`. Most hosting providers offer you e-mail addresses from which you can send mail; just create an e-mail address and change the contents of that function. If hosting from your own server, you will have to set up SMTP (which I will not go into here).
+
+And that's it! Have fun.
